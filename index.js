@@ -24,18 +24,19 @@ app.use(express.static('views'));
 
 /* app.use(bodyParser.urlencoded({ extended: false })); */
 
-/* app.post("/", (req,res)=>{
+app.post("/", (req,res)=>{
   var personName = req.body.name;
   var email = req.body.email;
   var subject = req.body.subject;
   var message = req.body.message;
 
   var data = personName + email + subject + message;
-  fs.writeFile('Output.txt', data, (err) => { 
+
+  /* fs.writeFile('Output.txt', data, (err) => { 
       
     // In case of a error throw err. 
     if (err) throw err; 
-}) 
-res.send("Thank !")
+})  */
+res.redirect("https://wa.me/?text=I'm%20inquiring%20about%20the%20apartment%20listing")
 })
- */
+
