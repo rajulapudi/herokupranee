@@ -1,0 +1,20 @@
+{
+  "name": "tabletask",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "author": "Mohan Praneeth",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongo-express": "^0.52.2",
+    "serve-index": "^1.9.1"
+  }
+}
