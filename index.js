@@ -3,7 +3,7 @@ const express = require('express')
 const fs = require('fs')
 const serveIndex = require('serve-index')
 const app = express()
-const port = 3000 || process.env.port
+const port = 3000 || process.env.PORT;
 
 
 /* app.get('/', (req, res) => res.send('Hello World I am in /Root')) */
