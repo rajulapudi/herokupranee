@@ -22,7 +22,7 @@ app.use("/table",express.static('table'));
 app.use(express.static('views')); 
 /* app.use("/public",express.static('dummy')); */  /* use for different routing */
 
-/* app.use(bodyParser.urlencoded({ extended: false })); */
+app.use(bodyParser.urlencoded({ extended: false }));
 
 app.post("/", (req,res)=>{
   var personName = req.body.name;
